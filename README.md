@@ -16,7 +16,7 @@ Please install ``httparty`` before using the class,
 Basic Usage in ``irb``:
 	
 	load 'buffer_app.rb'
-	buffer = BufferApp.(your_token, your_profile_id)
+	buffer = BufferApp.new(your_token, your_profile_id)
 	puts buffer.create(your_post, date_string_iso8601_format)
 
 I hope it saves you some time.
